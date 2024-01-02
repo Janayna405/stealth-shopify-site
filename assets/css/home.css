@@ -1,3 +1,10 @@
 body{
-    background-color: red;
+    background-color: rgb(166, 200, 216);
+}
+.container{
+    width: 1500px;
+    margin:auto;
+}
+img{
+    width:10;
 }
