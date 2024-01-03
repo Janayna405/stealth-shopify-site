@@ -7,10 +7,10 @@ body{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-#menu{
+#menu {
     list-style:none;
     padding: 0;
-    background-color: white;
+    background-color: rgb(14, 3, 73);
 }
 #menu li{
     display: inline;
@@ -19,8 +19,11 @@ body{
     padding: 10 px;
     display: inline-block;
     text-decoration:none ;
-    color: black;
-
+    color: rgb(192, 223, 21);
+    transition: background .6s;
+}
+#menu li a:hover{
+    background-color: white;
 }
 
 
