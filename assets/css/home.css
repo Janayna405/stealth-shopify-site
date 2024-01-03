@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
-    background-color: rgb(166, 200, 216);
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+#menu{
+    list-style:none;
+    padding: 0;
+    background-color: white;
+}
+#menu li{
+    display: inline;
+}
+#menu li a{
+    padding: 10 px;
+    display: inline-block;
+    text-decoration:none ;
+    color: black;
+
+}
+
+
 .container{
     width: 1500px;
     margin:auto;
