@@ -1,0 +1,47 @@
+header{
+    padding: 20px 0 20px 0;
+    background: aquamarine;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo {
+    width: 120px;
+    height: 90px;
+}
+
+.menu {
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: background .6s;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.sacola .cart img {
+    width: 30px;
+    height: 30px;
+}
+.container .sacola,
+.container .sacola .cart {
+    display: flex;
+
+}
